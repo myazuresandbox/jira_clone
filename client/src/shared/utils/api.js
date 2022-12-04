@@ -6,7 +6,9 @@ import { objectToQueryString } from 'shared/utils/url';
 import { getStoredAuthToken, removeStoredAuthToken } from 'shared/utils/authToken';
 
 const defaults = {
-  baseURL: process.env.API_URL || 'http://localhost:3000',
+  baseURL:
+    process.env.API_URL ||
+    'https://myazuresandbox-studious-pancake-qj9xp47j9vv24j59-8082.preview.app.github.dev',
   headers: () => ({
     'Content-Type': 'application/json',
     Authorization: getStoredAuthToken() ? `Bearer ${getStoredAuthToken()}` : undefined,

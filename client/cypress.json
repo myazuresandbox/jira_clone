@@ -1,8 +1,8 @@
 {
-  "baseUrl": "http://localhost:8080",
+  "baseUrl": "https://myazuresandbox-studious-pancake-qj9xp47j9vv24j59-8081.preview.app.github.dev",
   "viewportHeight": 800,
   "viewportWidth": 1440,
   "env": {
-    "apiBaseUrl": "http://localhost:3000"
+    "apiBaseUrl": "https://myazuresandbox-studious-pancake-qj9xp47j9vv24j59-8082.preview.app.github.dev"
   }
 }
