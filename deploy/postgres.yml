@@ -7,7 +7,7 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_PASSWORD: c5sEbIstOf0e$wO!6?=
+      POSTGRES_PASSWORD: postgrespwd10
 
   adminer:
     image: adminer

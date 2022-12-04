@@ -33,6 +33,16 @@ There are many showcase/example React projects out there but most of them are wa
 - Install [postgreSQL](https://www.postgresql.org/) if you don't have it already and create a database named `jira_development`.
 
 
+docker  system prune
+docker rmi $(docker images -q) 
+
+
+docker container ls -a
+docker container stop $(docker container ls -aq)
+docker container rm $(docker container ls -aq) 
+
+
+
 7IPritHu0wat$
 
 Run docker stack deploy -c stack.yml postgres (or docker-compose -f stack.yml up), wait for it to initialize completely, and visit http://swarm-ip:8080, http://localhost:8080, or http://host-ip:8080 (as appropriate).

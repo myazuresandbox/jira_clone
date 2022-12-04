@@ -1,0 +1,55 @@
+adminer_1  | [Sun Dec  4 17:53:07 2022] PHP 7.4.33 Development Server (http://[::]:8080) started
+db_1       | The files belonging to this database system will be owned by user "postgres".
+db_1       | This user must also own the server process.
+db_1       | 
+db_1       | The database cluster will be initialized with locale "en_US.utf8".
+db_1       | The default database encoding has accordingly been set to "UTF8".
+db_1       | The default text search configuration will be set to "english".
+db_1       | 
+db_1       | Data page checksums are disabled.
+db_1       | 
+db_1       | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+db_1       | creating subdirectories ... ok
+db_1       | selecting dynamic shared memory implementation ... posix
+db_1       | selecting default max_connections ... 100
+db_1       | selecting default shared_buffers ... 128MB
+db_1       | selecting default time zone ... Etc/UTC
+db_1       | creating configuration files ... ok
+db_1       | running bootstrap script ... ok
+db_1       | performing post-bootstrap initialization ... ok
+db_1       | syncing data to disk ... ok
+db_1       | 
+db_1       | 
+db_1       | Success. You can now start the database server using:
+db_1       | 
+db_1       |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+db_1       | 
+db_1       | initdb: warning: enabling "trust" authentication for local connections
+db_1       | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+db_1       | waiting for server to start....2022-12-04 17:53:11.531 UTC [48] LOG:  starting PostgreSQL 15.1 (Debian 15.1-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+db_1       | 2022-12-04 17:53:11.548 UTC [48] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+db_1       | 2022-12-04 17:53:11.593 UTC [51] LOG:  database system was shut down at 2022-12-04 17:53:08 UTC
+db_1       | 2022-12-04 17:53:11.614 UTC [48] LOG:  database system is ready to accept connections
+db_1       |  done
+db_1       | server started
+db_1       | 
+db_1       | /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+db_1       | 
+db_1       | 2022-12-04 17:53:11.724 UTC [48] LOG:  received fast shutdown request
+db_1       | waiting for server to shut down....2022-12-04 17:53:11.740 UTC [48] LOG:  aborting any active transactions
+db_1       | 2022-12-04 17:53:11.742 UTC [48] LOG:  background worker "logical replication launcher" (PID 54) exited with exit code 1
+db_1       | 2022-12-04 17:53:11.743 UTC [49] LOG:  shutting down
+db_1       | 2022-12-04 17:53:11.757 UTC [49] LOG:  checkpoint starting: shutdown immediate
+db_1       | 2022-12-04 17:53:11.847 UTC [49] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.026 s, sync=0.013 s, total=0.104 s; sync files=2, longest=0.007 s, average=0.007 s; distance=0 kB, estimate=0 kB
+db_1       | 2022-12-04 17:53:11.851 UTC [48] LOG:  database system is shut down
+db_1       |  done
+db_1       | server stopped
+db_1       | 
+db_1       | PostgreSQL init process complete; ready for start up.
+db_1       | 
+db_1       | 2022-12-04 17:53:11.973 UTC [1] LOG:  starting PostgreSQL 15.1 (Debian 15.1-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+db_1       | 2022-12-04 17:53:11.974 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+db_1       | 2022-12-04 17:53:11.974 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+db_1       | 2022-12-04 17:53:12.003 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+db_1       | 2022-12-04 17:53:12.033 UTC [61] LOG:  database system was shut down at 2022-12-04 17:53:11 UTC
+db_1       | 2022-12-04 17:53:12.051 UTC [1] LOG:  database system is ready to accept connections
